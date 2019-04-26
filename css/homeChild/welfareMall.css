@@ -1,0 +1,383 @@
+@charset "utf-8";
+
+.device {
+  position: relative;
+}
+
+.swiper-container {
+  height: 3.38rem;
+  width: 7.5rem;
+}
+
+.swiper-container img{
+  width: 100%;
+}
+
+.content-slide {
+  padding: 20px;
+  color: #fff;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom:5px;
+  width: 100%;
+  z-index: 998;
+}
+
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #ffd1cc;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.swiper-active-switch {
+  background: #f36601;
+}
+
+.fuli-home-head{
+  width: 100%;
+  height: .9rem;
+  padding: 0 .12rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 999;
+}
+
+.fuli-home-head-scan{
+  width: .95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fuli-home-head-scan span{
+  font-size: .2rem;
+  color: #fe9901;
+}
+
+.fuli-home-head-scan img{
+  width: .18rem;
+  height: .33rem;
+}
+
+.fuli-home-head-search{
+  width: 4.82rem;
+}
+
+.fuli-home-head-search-border{
+  width: 4.82rem;
+  height: .6rem;
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 1.25rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fuli-home-head-search-border input{
+  float: left;
+  width: 4rem;
+  height: .5rem;
+  outline: none
+}
+
+.fuli-home-head-search-border input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.fuli-home-head-search-border input:-moz-placeholder {
+  color: #999;
+}
+
+.fuli-home-head-search-border input:-ms-input-placeholder {
+  color: #999;
+}
+
+.fuli-home-head-search-img{
+  width: .35rem;
+  height: .35rem;
+  float: left;
+}
+
+
+.fuli-home-head-msg{
+  width: .82rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fuli-home-head-msg span{
+  font-size: .2rem;
+  color: #fff;
+}
+
+.fuli-home-head-msg img{
+  width: .45rem;
+  height: .42rem;
+}
+
+.fuli-all-goods{
+  position: relative;
+  background-color: #f5f5f5;
+  padding: 0 .12rem;
+  box-sizing: border-box;
+}
+
+.fuli-all-goods-title{
+  height: .92rem;
+  display: flex;
+  align-items: center;
+}
+
+.fuli-goods-title-stand{
+  width: .04rem;
+  height: .26rem;
+  background-color: #1812eb;
+}
+
+.goods-title{
+  font-size: .28rem;
+  color: #000;
+  margin: 0 .11rem;
+}
+
+.goods-title-jie{
+  font-size: .22rem;
+  color: #1812eb;
+}
+
+.fuli-all-goods-img{
+  width: 7.25rem;
+  height: 2.09rem;
+}
+
+.fuli-all-goods-img img{
+  width: 100%;
+}
+
+.fuli-all-goods-wrapper{
+  height: 3.52rem;
+  margin-top: .12rem;
+  display: flex;
+}
+
+.fuli-all-goods-items{
+  width: 2.31rem;
+  height: 3.52rem;
+  background-color: #fff;
+  margin-right: .16rem;
+  position: relative;
+}
+
+.fuli-all-goods-items2{
+  width: 2.31rem;
+  height: 3.52rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.fuli-all-goods-items-img{
+  width: 2.31rem;
+  height: 2.32rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fuli-all-goods-items-img img{
+  height: 80%;
+}
+
+.fuli-all-goods-items-name{
+  font-size: .24rem;
+  color: #333;
+  line-height: .35rem;
+  font-weight: 800;
+  margin-top: .11rem;
+  text-align: center;
+}
+
+.fuli-all-goods-new-price{
+  font-size: .3rem;
+  color: #fe6601;
+  line-height: .33rem;
+}
+
+.fuli-all-goods-old-price{
+  font-size: .22rem;
+  color: #999;
+  line-height: .33rem;
+  padding-left: .05rem;
+  box-sizing: border-box;
+  text-decoration: line-through;
+}
+
+.burst{
+  width: .63rem;
+  height: .63rem;
+  border-radius: .63rem;
+  background-color: #f10b0b;
+  text-align: center;
+  line-height: .63rem;
+  color: #fff;
+  font-size: .26rem;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.goods-title-jie2{
+  font-size: .22rem;
+  color: #e6ca0c;
+}
+
+.goods-title-jie3{
+  font-size: .22rem;
+  color: #00d24a;
+}
+
+.fuli-home-welfare{
+  height: .92rem;
+  background-color: #f9f9f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.fuli-home-welfare-left{
+  width: .64rem;
+  height: .08rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fuli-home-welfare-left img{
+  width: 100%;
+}
+
+.fuli-home-welfare-hole{
+  width: .08rem;
+  height: .08rem;
+  background-color: #000;
+  border-radius: 51%;
+}
+
+.fuli-home-welfare-word{
+  font-size: .28rem;
+  color: #000;
+  margin: 0 .13rem;
+}
+
+.fuli-home-welfare-word2{
+  position: absolute;
+  font-size: .22rem;
+  color: #999;
+  right: 10px;
+}
+
+.fuli-guess-like{
+  background-color: #f9f9f7;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.fuli-guess-like-item{
+  width: 3.57rem;
+  height: 5.04rem;
+  margin-right: .12rem;
+  margin-bottom: .12rem;
+  background-color: #fff;
+  box-shadow: #e4e4e3 .03rem .03rem .3rem .03rem;
+}
+
+.fuli-guess-like-item2{
+  width: 3.57rem;
+  height: 5.04rem;
+  margin-bottom: .12rem;
+  background-color: #fff;
+  box-shadow: #e4e4e3 .03rem .03rem .3rem .03rem;
+}
+
+.fuli-guess-like-item-img{
+  width: 3.57rem;
+  height: 3.36rem;
+}
+
+.fuli-guess-like-item-img img{
+  width: 100%;
+}
+
+.fuli-guess-like-item-word{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fuli-guess-like-item-name{
+  width: 3rem;
+  height: .65rem;
+  line-height: .33rem;
+  font-size: .22px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp:2;
+  word-break:break-all;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+}
+
+.fuli-guess-like-item-price{
+  height: .75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .18rem;
+  box-sizing: border-box;
+}
+
+.guess-like-price{
+  display: flex;
+  align-items: center;
+}
+
+.guess-like-new-price{
+  font-size: .3rem;
+  color: #fe6601;
+  font-weight: bold;
+}
+
+.guess-like-old-price{
+  font-size: .22rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.guess-like-more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
